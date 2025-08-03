@@ -13,3 +13,13 @@ A content-based movie recommender that suggests similar movies based on genres, 
 ---
 
 ## 📁 Project Structure
+movie-recommender/
+├── data/ # Folder for raw CSV files
+│ ├── tmdb_5000_movies.csv
+│ └── tmdb_5000_credits.csv
+├── movie_recomm.ipynb # Jupyter notebook to build the model & pickles
+├── app.py # Streamlit UI script
+├── movie.pkl # Pickled DataFrame with processed movie data
+├── similarity.pkl # Pickled cosine similarity matrix
+├── requirements.txt # Python dependencies
+└── README.md # This file
