@@ -25,3 +25,7 @@ movie-recommender/
 ├── requirements.txt          # Python dependencies
 └── README.md                 # This file
 
+**Download the TMDB data files**  
+   - Go to the Kaggle dataset: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata  
+   - Download **tmdb_5000_movies.csv** and **tmdb_5000_credits.csv**  
+   - Place both files into the `data/` folder
