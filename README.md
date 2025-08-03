@@ -13,6 +13,7 @@ A content-based movie recommender that suggests similar movies based on genres, 
 ---
 
 ## 📁 Project Structure
+```text
 movie-recommender/
 ├── data/                     # Folder for raw CSV files
 │   ├── tmdb_5000_movies.csv
@@ -23,3 +24,4 @@ movie-recommender/
 ├── similarity.pkl            # Pickled cosine similarity matrix
 ├── requirements.txt          # Python dependencies
 └── README.md                 # This file
+
